@@ -1,14 +1,14 @@
 import React from "react";
-import Tickets from "./Ticket"
+import Ticket from "./Ticket";
 
-function TicketList(props) {
+function TicketList(props){
 
-  return (
+return (
     <Ticket
-      location="3a"
-      names="Thato and Haley"
-      issue="Firebase won't save record"/>
-  );
+        location="3a"
+        names="Thato and Haley"
+        issue="Firebase won't save record"/>
+    );
 }
 
 export default TicketList;
